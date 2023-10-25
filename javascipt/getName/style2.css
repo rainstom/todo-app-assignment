@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+main {
+    display: flex;
+    height: 100vh;
+}
+
+aside,
+section,
+header {
+    border: 1px solid black;
+}
+
+aside {
+    width: 20vw;
+}
+
+.main {
+    width: 80vw;
+}
+
+header {
+    height: 10vh;
+}
+
+.body {
+    height: 90vh;
+}
+
+h1 {
+    margin: 20px;
+}
+
+small {
+    display: none;
+    color: red;
+}
